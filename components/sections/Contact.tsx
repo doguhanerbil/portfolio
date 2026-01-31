@@ -321,7 +321,7 @@ export function Contact() {
                   id="contact-message"
                   name="message"
                   rows={4}
-                  placeholder="Tell me about your project..."
+                  placeholder="Leave your message here — I'll get back to you as soon as possible."
                   className={`contact-input resize-none ${errors.message ? "contact-input-error" : ""}`}
                   disabled={formState === "loading"}
                   aria-invalid={errors.message ? "true" : "false"}

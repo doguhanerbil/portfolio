@@ -190,7 +190,7 @@ export function ContactForm() {
           id="message"
           name="message"
           rows={5}
-          placeholder="Tell me about your project or just say hi..."
+          placeholder="Leave your message here — I'll get back to you as soon as possible."
           className={`form-input resize-none ${errors.message ? "form-input-error" : ""}`}
           disabled={formState === "loading"}
         />
