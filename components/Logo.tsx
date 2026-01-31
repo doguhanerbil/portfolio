@@ -1,0 +1,65 @@
+interface LogoProps {
+  className?: string;
+  size?: number;
+  mono?: boolean;
+}
+
+export function Logo({ className = "", size = 48, mono = false }: LogoProps) {
+  const accentColor = mono ? "#FAFAFA" : "#D97706";
+  const borderColor = mono ? "#FAFAFA" : "#404040";
+  
+  return (
+    <svg
+      width={size}
+      height={size}
+      viewBox="0 0 64 64"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      className={className}
+      aria-label="Logo - Software Architecture Layers"
+    >
+      {/* Layer 1 - Top */}
+      <g transform="translate(8, 8)">
+        <path d="M24 0L48 12V20L24 8L0 20V12L24 0Z" fill="#FAFAFA" />
+        <path
+          d="M0 12L24 0L48 12L24 24L0 12Z"
+          fill="#1F1F1F"
+          stroke={borderColor}
+          strokeWidth="0.5"
+        />
+      </g>
+
+      {/* Layer 2 - Middle with accent */}
+      <g transform="translate(8, 20)">
+        <path d="M24 0L48 12V20L24 8L0 20V12L24 0Z" fill="#FAFAFA" />
+        <path
+          d="M0 12L24 0L48 12L24 24L0 12Z"
+          fill="#171717"
+          stroke={accentColor}
+          strokeWidth="1.5"
+        />
+      </g>
+
+      {/* Layer 3 - Bottom */}
+      <g transform="translate(8, 32)">
+        <path d="M24 0L48 12V20L24 8L0 20V12L24 0Z" fill="#FAFAFA" />
+        <path
+          d="M0 12L24 0L48 12L24 24L0 12Z"
+          fill="#1F1F1F"
+          stroke={borderColor}
+          strokeWidth="0.5"
+        />
+      </g>
+
+      {/* Data flow connector */}
+      <path
+        d="M32 20L32 48"
+        stroke={accentColor}
+        strokeWidth="2"
+        strokeLinecap="round"
+      />
+      <circle cx="32" cy="20" r="3" fill={accentColor} />
+      <circle cx="32" cy="48" r="3" fill={accentColor} />
+    </svg>
+  );
+}

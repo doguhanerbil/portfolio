@@ -1,0 +1,13 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Simplified favicon version - stacked layers -->
+  <rect width="32" height="32" fill="#0F0F0F"/>
+  
+  <!-- Layer 1 - Top -->
+  <path d="M16 4L28 10L16 16L4 10L16 4Z" fill="#1F1F1F" stroke="#FAFAFA" stroke-width="0.5"/>
+  
+  <!-- Layer 2 - Middle with orange -->
+  <path d="M16 10L28 16L16 22L4 16L16 10Z" fill="#171717" stroke="#D97706" stroke-width="1"/>
+  
+  <!-- Layer 3 - Bottom -->
+  <path d="M16 16L28 22L16 28L4 22L16 16Z" fill="#1F1F1F" stroke="#FAFAFA" stroke-width="0.5"/>
+</svg>
