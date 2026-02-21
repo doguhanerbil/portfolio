@@ -22,19 +22,19 @@ export type Project = {
 
 export const projects: Project[] = [
   {
-    id: "dev-events-next-js",
-    title: "Dev Events Hub",
+    id: "mini-tasks",
+    title: "Mini Tasks",
     description:
-      "A developer events discovery platform built with Next.js and TypeScript. Features clean UI, event filtering, and modern frontend architecture patterns.",
-    technologies: ["Next.js", "TypeScript", "React", "Tailwind CSS"],
-    githubUrl: "https://github.com/doguhanerbil/dev-events-next-js",
+      "A full-stack task management application with Spring Boot REST API, JWT authentication, PostgreSQL, and a minimal React frontend. Dockerized with CI/CD via GitHub Actions.",
+    technologies: ["Java", "Spring Boot", "PostgreSQL", "React", "TypeScript", "Docker", "JWT"],
+    githubUrl: "https://github.com/doguhanerbil/mini-tasks",
     liveUrl: undefined,
     imageUrl: undefined,
     featured: true,
     year: 2025,
     metrics: [
-      { label: "Focus", value: "Frontend + UX" },
-      { label: "Stack", value: "Next.js + TS" },
+      { label: "Focus", value: "Full Stack + Auth" },
+      { label: "Stack", value: "Spring Boot + React" },
     ],
   },
   {
