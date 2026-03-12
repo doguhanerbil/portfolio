@@ -3,6 +3,7 @@ import { DM_Sans, JetBrains_Mono } from "next/font/google";
 import { BackgroundFX } from "@/components/BackgroundFX";
 import { CursorSpotlight } from "@/components/CursorSpotlight";
 import "./globals.css";
+import { Analytics } from "@vercel/analytics/react";
 
 const dmSans = DM_Sans({
   variable: "--font-dm-sans",
@@ -96,6 +97,7 @@ export default function RootLayout({
       >
         <BackgroundFX />
         <CursorSpotlight />
+        <Analytics />
         {children}
       </body>
     </html>
