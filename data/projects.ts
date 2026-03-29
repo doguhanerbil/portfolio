@@ -22,6 +22,22 @@ export type Project = {
 
 export const projects: Project[] = [
   {
+    id: "url-shortener",
+    title: "URL Shortener",
+    description:
+      "A full-stack URL shortener application with Spring Boot REST API, PostgreSQL, Next.js frontend, and Docker. Supports short link creation, redirect handling, and real-time click tracking.",
+    technologies: ["Java", "Spring Boot", "PostgreSQL", "Next.js", "TypeScript", "Docker", "Tailwind CSS"],
+    githubUrl: "https://github.com/doguhanerbil/url-shortener",
+    liveUrl: undefined,
+    imageUrl: undefined,
+    featured: true,
+    year: 2026,
+    metrics: [
+      { label: "Focus", value: "Full Stack + DevOps" },
+      { label: "Stack", value: "Spring Boot + Next.js" },
+    ],
+  },
+  {
     id: "mini-tasks",
     title: "Mini Tasks",
     description:

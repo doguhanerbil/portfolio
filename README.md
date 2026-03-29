@@ -1,4 +1,4 @@
-# Portfolio — Full Stack Developer
+# Portfolio — Software Developer
 
 Personal portfolio website designed, built, and deployed end-to-end. Production-ready Next.js application with working contact form, email integration, SEO optimization, and security hardening.
 
@@ -98,7 +98,7 @@ public/                → Static assets (OG image, icons, PDF)
 ## Contact
 
 **Ahmet Doguhan Erbil**  
-Full Stack Developer
+Software Developer
 
 - [doguhanerbil@gmail.com](mailto:doguhanerbil@gmail.com)
 - [LinkedIn](https://www.linkedin.com/in/ahmet-doguhan-erbil)

@@ -5,10 +5,10 @@
 
 export const siteConfig = {
   name: "Ahmet Doguhan Erbil",
-  title: "Full Stack Developer",
+  title: "Software Developer",
 
   tagline: "Engineering Scalable Solutions",
-  headline: "Full Stack Developer",
+  headline: "Software Developer",
   elevatorPitch:
     "I build scalable systems that power real businesses—from warehouse management platforms handling 100K+ monthly transactions to enterprise ERP solutions. Specializing in Java Spring Boot and React/Next.js, I bridge backend architecture with performant frontends.",
   location: "Istanbul, Turkey",
@@ -19,7 +19,7 @@ export const siteConfig = {
   // SEO & Metadata
   siteUrl: "https://doguhanerbil.com",
   ogImage: "/og-image.png",
-  description: "Full Stack Developer with 3+ years building scalable enterprise systems. Specializing in Java Spring Boot, React/Next.js, and PostgreSQL. Expert in WMS/ERP solutions, CI/CD pipelines, and system architecture.",
+  description: "Software Developer with 3+ years building scalable enterprise systems. Specializing in Java Spring Boot, React/Next.js, and PostgreSQL. Expert in WMS/ERP solutions, CI/CD pipelines, and system architecture.",
 };
 
 
@@ -29,7 +29,7 @@ export const siteConfig = {
  * Tone: Technical competence, problem-solving focus, metrics-driven
  */
 export const aboutTechnical = `
-Full Stack Java Developer with 3+ years of experience building enterprise systems that solve real business problems. I specialize in Java Spring Boot backends, React/Next.js frontends, and PostgreSQL databases—delivering end-to-end solutions from architecture to deployment.
+Software Developer with 3+ years of experience building enterprise systems that solve real business problems. I specialize in Java Spring Boot backends, React/Next.js frontends, and PostgreSQL databases—delivering end-to-end solutions from architecture to deployment.
 
 At Aurora Bilisim, I built and scaled a Warehouse Management System that processes 100K+ monthly transactions. I designed the REST API layer, implemented CI/CD pipelines that reduced deployment time from days to minutes, and optimized database queries to support 3x more concurrent users. The system now reliably handles the company's entire logistics operation.
 
@@ -44,7 +44,7 @@ My background in IT infrastructure and test automation (Selenium, Postman) gives
  * Tone: Impact-driven, results-focused, accessible language
  */
 export const aboutRecruiter = `
-I'm a Full Stack Developer who turns complex technical challenges into solutions that 
+I'm a Software Developer who turns complex technical challenges into solutions that 
 deliver real business impact. With 3+ years of experience across enterprise logistics 
 and defense sectors, I've built systems handling 100,000+ monthly transactions while 
 consistently improving efficiency, reliability, and user satisfaction.

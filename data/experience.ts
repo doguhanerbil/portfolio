@@ -27,7 +27,7 @@ export type Achievement = {
 export const experiences: Experience[] = [
     {
         id: "aurora-2024",
-        title: "Full Stack Developer",
+        title: "Software Developer",
         company: "Aurora Bilisim",
         companyUrl: "https://aurorabilisim.com",
         companyDescription: "Provider of warehouse and logistics software, developing modern ERP platforms for enterprise clients",
@@ -144,7 +144,7 @@ export const experiences: Experience[] = [
     },
     {
         id: "aurora-2022",
-        title: "Full Stack Developer",
+        title: "Software Developer",
         company: "Aurora Bilisim",
         companyUrl: "https://aurorabilisim.com",
         companyDescription: "Provider of warehouse and logistics software, developing modern ERP platforms for enterprise clients",

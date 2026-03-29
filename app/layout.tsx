@@ -18,11 +18,11 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Ahmet Doguhan Erbil | Full Stack Developer",
+  title: "Ahmet Doguhan Erbil | Software Developer",
   description:
-    "Full Stack Developer with 3+ years building scalable enterprise systems. Specializing in Java Spring Boot, React/Next.js, and PostgreSQL. Expert in WMS/ERP solutions, CI/CD pipelines, and system architecture. Available for remote opportunities.",
+    "Software Developer with 3+ years building scalable enterprise systems. Specializing in Java Spring Boot, React/Next.js, and PostgreSQL. Expert in WMS/ERP solutions, CI/CD pipelines, and system architecture. Available for remote opportunities.",
   keywords: [
-    "Full Stack Developer",
+    "Software Developer",
     "Java Developer",
     "Spring Boot",
     "React",
@@ -40,7 +40,7 @@ export const metadata: Metadata = {
   creator: "Ahmet Doguhan Erbil",
   metadataBase: new URL("https://doguhanerbil.com"),
   openGraph: {
-    title: "Ahmet Doguhan Erbil | Full Stack Developer",
+    title: "Ahmet Doguhan Erbil | Software Developer",
     description:
       "Building scalable systems that power real businesses. Java Spring Boot & React specialist with 3+ years in enterprise WMS/ERP solutions.",
     url: "https://doguhanerbil.com",
@@ -50,7 +50,7 @@ export const metadata: Metadata = {
         url: "/og-image.png",
         width: 1200,
         height: 630,
-        alt: "Ahmet Doguhan Erbil - Full Stack Developer",
+        alt: "Ahmet Doguhan Erbil - Software Developer",
       },
     ],
     locale: "en_US",
@@ -58,7 +58,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Ahmet Doguhan Erbil | Full Stack Developer",
+    title: "Ahmet Doguhan Erbil | Software Developer",
     description:
       "Building scalable systems that power real businesses. Java Spring Boot & React specialist.",
     images: ["/og-image.png"],
