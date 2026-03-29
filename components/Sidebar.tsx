@@ -25,7 +25,7 @@ export function Sidebar() {
       </div>
 
       {/* Social Links */}
-      <div className="mt-8 lg:mt-0">
+      <div className="mt-12 lg:mt-0 lg:pt-8">
         <SocialLinks />
       </div>
     </header>
