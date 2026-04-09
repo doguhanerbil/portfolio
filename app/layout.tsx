@@ -4,7 +4,7 @@ import Script from "next/script";
 import { BackgroundFX } from "@/components/BackgroundFX";
 import { CursorSpotlight } from "@/components/CursorSpotlight";
 import "./globals.css";
-import { Analytics } from "@vercel/analytics/react";
+import { Analytics } from "@vercel/analytics/next";
 
 const dmSans = DM_Sans({
   variable: "--font-dm-sans",
