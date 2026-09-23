@@ -21,7 +21,7 @@ const jetbrainsMono = JetBrains_Mono({
 export const metadata: Metadata = {
   title: "Ahmet Doguhan Erbil | Software Developer",
   description:
-    "Software Developer with 3+ years building scalable enterprise systems. Specializing in Java Spring Boot, React/Next.js, and PostgreSQL. Expert in WMS/ERP solutions, CI/CD pipelines, and system architecture. Available for remote opportunities.",
+    "Software Developer with 3 years building enterprise systems. Working with Java Spring Boot, React/Next.js, and PostgreSQL across WMS/ERP solutions, CI/CD pipelines, and system integration. Available for remote opportunities.",
   keywords: [
     "Software Developer",
     "Java Developer",
@@ -43,7 +43,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Ahmet Doguhan Erbil | Software Developer",
     description:
-      "Building scalable systems that power real businesses. Java Spring Boot & React specialist with 3+ years in enterprise WMS/ERP solutions.",
+      "Building scalable systems that power real businesses. Java Spring Boot & React developer with 3 years in enterprise WMS/ERP solutions.",
     url: "https://doguhanerbil.com",
     siteName: "Ahmet Doguhan Erbil",
     images: [
@@ -86,6 +86,10 @@ export const metadata: Metadata = {
 };
 
 
+// Only render the analytics tags when a measurement ID is configured,
+// so local development doesn't fire requests with an undefined ID.
+const gaId = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID;
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -94,18 +98,22 @@ export default function RootLayout({
   return (
     <html lang="en" className="dark">
       <head>
-        <Script
-          src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID}`}
-          strategy="afterInteractive"
-        />
-        <Script id="google-analytics" strategy="afterInteractive">
-          {`
+        {gaId && (
+          <>
+            <Script
+              src={`https://www.googletagmanager.com/gtag/js?id=${gaId}`}
+              strategy="afterInteractive"
+            />
+            <Script id="google-analytics" strategy="afterInteractive">
+              {`
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', '${process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID}');
+            gtag('config', '${gaId}');
           `}
-        </Script>
+            </Script>
+          </>
+        )}
       </head>
       <body
         className={`${dmSans.variable} ${jetbrainsMono.variable} antialiased relative`}

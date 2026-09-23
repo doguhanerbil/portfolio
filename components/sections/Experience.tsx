@@ -63,20 +63,19 @@ export function Experience() {
                 {exp.description}
               </p>
 
-              {/* Key Metrics */}
-              {exp.achievements && exp.achievements.length > 0 && (
-                <ul className="mt-4 flex flex-wrap gap-x-6 gap-y-2">
-                  {exp.achievements.map((achievement, idx) => (
+              {/* Responsibilities */}
+              {exp.responsibilities && exp.responsibilities.length > 0 && (
+                <ul className="mt-4 space-y-2">
+                  {exp.responsibilities.map((item, idx) => (
                     <li
                       key={idx}
-                      className="flex items-baseline gap-2 text-sm"
+                      className="flex gap-3 text-sm leading-normal text-[var(--color-text-secondary)]"
                     >
-                      <span className="font-semibold text-[var(--color-accent)]">
-                        {achievement.metric}
-                      </span>
-                      <span className="text-[var(--color-text-tertiary)]">
-                        {achievement.impact}
-                      </span>
+                      <span
+                        aria-hidden="true"
+                        className="mt-[0.45rem] h-1 w-1 shrink-0 rounded-full bg-[var(--color-accent)]"
+                      />
+                      <span>{item}</span>
                     </li>
                   ))}
                 </ul>
